@@ -42,7 +42,7 @@ import { useStore } from "vuex";
 import { useRouter } from "vue-router";
 const router = useRouter();
 const store = useStore();
-const itemsPerPage = ref(5); // Number of items per page
+const itemsPerPage = ref(6); // Number of items per page
 const currentPage = ref(1);
 const displayedProducts = computed(() => {
 	// Calculate the range of products to display on the current page
